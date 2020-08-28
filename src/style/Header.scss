@@ -1,0 +1,75 @@
+.header {
+  &_panel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: 20px auto;
+  }
+
+  &_form {
+    min-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+  }
+
+  &_search {
+    padding: 5px;
+    margin: 2px 15px;
+  }
+
+  &_button {
+    padding: 5px 10px;
+    margin-right: 15px;
+  }
+
+  &_select {
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  &_logo {
+    height: 140px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .header_panel {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    &_panel {
+      height: 7vh;
+    }
+    &_form {
+      transform: scale(0.7);
+      left: 28.3%;
+      top: -20px;
+    }
+
+    &_logo {
+      height: 70px;
+      margin-left: 30px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .header {
+    &_form {
+      transform: scale(0.6);
+      left: 22%;
+    }
+    &_logo {
+      height: 65px;
+    }
+    &_panel {
+      margin-top: 10px;
+    }
+  }
+}
