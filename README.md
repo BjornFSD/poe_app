@@ -1,3 +1,19 @@
+Path of Exile account seeker, you can check your actual item set on your character.
+
+This app is taking API from their servers.
+
+>Name accounts for testing: Anavrinsic, Feneles.
+>Choose random character on list.
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
